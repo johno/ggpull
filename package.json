@@ -1,0 +1,25 @@
+{
+  "name": "ggpull",
+  "version": "0.0.1",
+  "description": "Git pull shortuct that automatically infers the current branch",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "repository": "johnotander/ggpull",
+  "license": "MIT",
+  "bin": "ggpull.sh",
+  "files": [
+    "ggpull.sh"
+  ],
+  "keywords": [
+    "cli-app",
+    "git",
+    "pull",
+    "ggpull",
+    "sh"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "git-current-branch": "^1.0.3"
+  }
+}
