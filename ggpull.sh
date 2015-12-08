@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-git pull origin $(git-current-branch)
+git pull origin $(./node_modules/.bin/git-current-branch)
